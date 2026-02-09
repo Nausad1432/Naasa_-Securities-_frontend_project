@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+/* body{
+    overflow: hidden;
+} */
+
+#navbar{  
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px 2px 3px rgba(0, 0,0, 0.3);
+    background-color: whitesmoke;
+}
+#logo img{
+    height: 103px;
+    width: 180px;
+    cursor: pointer;
+}
+.middle-nav{
+    display: flex;
+    align-items: center;
+   
+}
+
+.middle-nav ul {
+    display: flex;
+    gap: 1.3rem;
+    
+}
+.middle-nav ul li{
+    cursor: pointer;
+    list-style: none;
+
+}
+.middle-nav ul li a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.middle-nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.middle-nav ul li a:hover{
+    
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px; /* gap */
+  
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+.navbtn{
+    margin-bottom: 1.1rem;
+    /* border: none; */
+    color: black;
+    background-color: rgb(244 196 48 );
+}
+.navbtn i{
+    font-size: 1.1rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 1.6rem;
+    padding-bottom: 1.2rem;
+    cursor: pointer;
+}
+.menu i{
+   
+    font-size: 1.5rem;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 93vh;
+   width: 100vw;
+
+
+}
+
+.img-slide{
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 78%;
+ height: 80%;
+/* background-color: antiquewhite; */
+} 
+.image{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+.text h2{
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+ .box{
+    background-color: rgb(223, 242, 236);
+    height: 350px;
+    width: 300px;
+    border-radius: 40px;
+    border: 2px solid rgb(135, 233, 202);
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-left: 0.8rem;
+    text-align: center;
+}
+.box h2{
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+   
+}
+.box p{
+    line-height: 1.7rem;
+}
+
+.bg-image{
+    width: 73%;
+    height: 250px;
+    border: 2px solid rgb(135, 233, 202);
+    border-radius: 2rem;
+    margin-top: 2rem;
+    background-image:url(/Naasa_Securities/screenshot.png);
+    background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+    
+}
+.text-2{
+    width: 430px;
+    height: 64px;
+    padding:  16px 5px ; 
+    background-color: rgba(251, 251, 252, 0.4);
+    border: 2px solid rgb(188, 244, 226);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.spn{
+    font-size: 23px;
+    font-weight: 600;
+}
+ 
+.spn-1{
+    color: rgb(28, 174, 146);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+   
+}
+.btn button{
+    margin-top: 10px;
+    padding: 20px 13px;
+    background-color:#FFCC32;
+    border-radius: 40px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+
+}
+hr{
+    /* height: 20px; */
+    width: 85%;
+    color: rgb(12, 220, 154);
+    border: 1px solid  rgb(12, 220, 154);
+    margin: 20px auto;
+}
+.con-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem ;
+    gap: 1.8rem;
+    
+
+}
+.txt h1{
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0px 0px 8px;
+}
+ .btn-2 button{
+    padding:10px 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(12, 220, 154);
+}
+
+.container-card{
+    background-color:rgb(220, 239, 232);
+   display: flex;
+   justify-content: top;
+   align-items: center;
+   flex-direction: column;
+   padding: 35px 10px; 
+    width: 73%;
+    height: 525px;
+    border-radius: 40px;
+    
+
+
+}
+.head p{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.cards{
+    width:97% ;
+    gap: 40px;
+    display: flex;
+     margin: 20px 0px;
+}
+
+.cards .crd{
+    /* border: 1px solid red; */
+    height: 260px;
+    width: 245px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+}
+.card-btn{
+    margin: 30px 0px;
+}
+.card-btn button{
+    padding:10px 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(12, 220, 154);
+    font-weight: 300;
+}
+.span-text{
+    padding: 20px;
+}
+.span-text .Rs{
+    display: flex;
+    justify-content: start;
+    font-size: larger;
+    color: #20B78A;
+}
+
+.span-text .num{
+    display: flex;
+    justify-content: center;
+    font-size:110px ;
+    font-weight: 900;
+    line-height: 90px;
+    
+    color: #20B78A;
+    tab-size: 4;
+}
+.span-text .one-time{
+    display: flex;
+    justify-content: end;
+     font-size: larger;
+    color: #20B78A;
+}
+#demat {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    /* text-align: center; */
+}
+
+.usersay-box{
+   position: relative;
+   left: 45px;
+   margin: 30px;
+    /* border: 2px solid black; */
+}
+.usersay{
+    padding: 10px;
+    text-align: center;
+}
+.usersay h1{
+   font-weight: 900;
+}
+
+.user-container{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+   height:54vh;
+   width: 85%;
+   border: 2px solid black;
+
+
+}
+.usr{
+    display: flex;
+    justify-content: center;
+    width:100% ;
+    gap: 30px;
+    height: 418px;
+    background-color: #e1dbc9;
+}
+.usr-1{
+    width: 48%;
+    height: 416px;
+    border: 2px solid red;
+}
+.usr-2{
+    width: 48%;
+    height: 416px;
+    border: 2px solid green;
+}
+.usr-3{
+    width: 48%;
+    height: 416px;
+    background-color: aqua;
+    z-index: 100;
+    border: 2px solid rgb(205, 6, 205); 
+}
+
+
+
+/* --------------- footer CSS code  --------------*/
+.footer-container{
+    background-color: #bef2e1e6;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ftr-text h1{
+    font-weight: 900;
+}
+
+.ftr-btn button{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 25px 50px;
+    border-radius: 50px;
+    background-color:#FFFFFF;
+}
+.end-footer{
+    background-color: rgb(72, 194, 154);
+    /* height: 700px; */
+    width: 100%;
+    color: aliceblue;
+    
+}
+.main-footer{
+    display: flex;
+}
+
+.com-social{
+    display: flex;
+}
+.end-footer ul li{
+    list-style: none;
+}
+.end-footer ul li a{
+    text-decoration: none;
+    color:aliceblue;
+}
