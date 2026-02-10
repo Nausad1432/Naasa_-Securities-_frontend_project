@@ -97,7 +97,7 @@
 }
 
 .img-slide{
-    
+    margin-top:100px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -328,7 +328,7 @@ hr{
     align-items: center;
    height:54vh;
    width: 85%;
-   border: 2px solid black;
+   /* border: 2px solid black; */
 
 
 }
@@ -338,7 +338,7 @@ hr{
     width:100% ;
     gap: 30px;
     height: 418px;
-    background-color: #e1dbc9;
+    /* background-color: #e1dbc9; */
 }
 .usr-1{
     width: 48%;
@@ -384,18 +384,13 @@ hr{
     background-color:#FFFFFF;
 }
 .end-footer{
-    background-color: rgb(72, 194, 154);
+    background-color: rgb(44, 183, 137);
     /* height: 700px; */
     width: 100%;
     color: aliceblue;
+    /* gap: 60px; */
+    padding:70px 0px 70px 150px ;
     
-}
-.main-footer{
-    display: flex;
-}
-
-.com-social{
-    display: flex;
 }
 .end-footer ul li{
     list-style: none;
@@ -403,4 +398,137 @@ hr{
 .end-footer ul li a{
     text-decoration: none;
     color:aliceblue;
+}
+.Naasa-footer{
+    flex-basis: 40%;
+}
+.Naasa-logo{
+    margin-bottom: 40px;
+}
+.Naasa-adress p{
+    font-weight: 500;
+}
+.adress{
+    font-size: 14px;
+    gap: 30px;
+}
+.Naasa-link{
+    flex-basis: 22%;
+    
+}
+.Useful-Links{
+    margin-bottom: 100px;
+}
+.Useful-Links .head h6{
+   padding-left: 31px;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+
+.head-link ul li{
+    padding-bottom: 10px;
+}
+.Quick-Links .quick h6{
+    padding-left: 31px;
+   font-size: 18px;
+   font-weight: 500;
+}
+.Quick-Links  ul li{
+    padding-bottom: 10px;
+}
+
+.main-footer{
+    display: flex;
+    gap: 30px;
+}
+
+.com-social{
+    display: flex;
+    flex-basis: 22%;
+}
+
+.company h6{
+     padding-left: 31px;
+   font-size: 18px;
+   font-weight: 500;
+}
+.company ul li{
+    padding-bottom: 10px;
+}
+.social h6{
+    padding-left: 31px;
+   font-size: 18px;
+   font-weight: 500;
+}
+.social ul li{
+   padding-bottom: 10px; 
+}
+
+.last-foot {
+    display: flex;
+    justify-content: end;
+    margin: 0px 100px 0px 30px;
+   
+}
+.last-foot span{
+    padding: 25px;
+    font-size: 18px;
+   font-weight: 500;
+}
+
+.round{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 40px;
+    left: 90px;
+    
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: #FFCC32;
+    border-radius: 50%;
+}
+ .nv a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+     border: 2px dashed white; 
+    border-radius: 50%;
+    padding: 10px;
+    background-color: black;
+}
+
+.cube{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50Px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.cube a{
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.name{
+    background-color: coral;
+    position: fixed;
+    top: 500px;
 }
