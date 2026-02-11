@@ -130,6 +130,7 @@
 .text h2{
     font-size: 2.7rem;
     font-weight: 800;
+    background: linear-gradient(to right, #6be0bd, #20B78A);
 }
 
  .box{
@@ -142,11 +143,15 @@
     padding-top: 2rem;
     padding-left: 0.8rem;
     text-align: center;
+   
 }
 .box h2{
     margin-bottom: 1.5rem;
     font-weight: 300;
    
+}
+.container:hover{
+    transform: translatey(-30px);
 }
 .box p{
     line-height: 1.7rem;
